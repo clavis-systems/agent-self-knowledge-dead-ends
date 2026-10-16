@@ -1,0 +1,170 @@
+{
+ "A_main": {
+  "per_agent": {
+   "claude_opus_4_5": {
+    "K": 15,
+    "runs": 489,
+    "fail": 106,
+    "auc_first_gold_step": 0.568,
+    "auc_edited_gold": 0.536,
+    "share_seen_gold": 0.973,
+    "fail_rate_seen": 0.21,
+    "fail_rate_unseen": 0.462
+   },
+   "gemma4_e4b": {
+    "K": 4,
+    "runs": 272,
+    "fail": 163,
+    "auc_first_gold_step": 0.682,
+    "auc_edited_gold": 0.5,
+    "share_seen_gold": 0.434,
+    "fail_rate_seen": 0.415,
+    "fail_rate_unseen": 0.74
+   },
+   "qwen3_coder_30b": {
+    "K": 17,
+    "runs": 500,
+    "fail": 242,
+    "auc_first_gold_step": 0.614,
+    "auc_edited_gold": 0.519,
+    "share_seen_gold": 0.844,
+    "fail_rate_seen": 0.441,
+    "fail_rate_unseen": 0.718
+   },
+   "qwen3_coder_480b": {
+    "K": 20,
+    "runs": 500,
+    "fail": 152,
+    "auc_first_gold_step": 0.592,
+    "auc_edited_gold": 0.517,
+    "share_seen_gold": 0.88,
+    "fail_rate_seen": 0.277,
+    "fail_rate_unseen": 0.5
+   }
+  },
+  "_agents_auc_ge_0.65": 1,
+  "_information_exists_early": false
+ },
+ "A_half": {
+  "per_agent": {
+   "claude_opus_4_5": {
+    "K": 25,
+    "runs": 470,
+    "fail": 105,
+    "auc_first_gold_step": 0.566,
+    "auc_edited_gold": 0.596,
+    "share_seen_gold": 0.983,
+    "fail_rate_seen": 0.216,
+    "fail_rate_unseen": 0.625
+   },
+   "gemma4_e4b": {
+    "K": 4,
+    "runs": 272,
+    "fail": 163,
+    "auc_first_gold_step": 0.682,
+    "auc_edited_gold": 0.5,
+    "share_seen_gold": 0.434,
+    "fail_rate_seen": 0.415,
+    "fail_rate_unseen": 0.74
+   },
+   "qwen3_coder_30b": {
+    "K": 29,
+    "runs": 497,
+    "fail": 242,
+    "auc_first_gold_step": 0.613,
+    "auc_edited_gold": 0.603,
+    "share_seen_gold": 0.948,
+    "fail_rate_seen": 0.467,
+    "fail_rate_unseen": 0.846
+   },
+   "qwen3_coder_480b": {
+    "K": 33,
+    "runs": 497,
+    "fail": 152,
+    "auc_first_gold_step": 0.591,
+    "auc_edited_gold": 0.6,
+    "share_seen_gold": 0.954,
+    "fail_rate_seen": 0.291,
+    "fail_rate_unseen": 0.609
+   }
+  },
+  "_agents_auc_ge_0.65": 1,
+  "_information_exists_early": false
+ },
+ "B": {
+  "tasks": 489,
+  "agents": [
+   "claude_opus_4_5",
+   "qwen3_coder_30b",
+   "qwen3_coder_480b"
+  ],
+  "B1_hand": {
+   "per_agent": {
+    "claude_opus_4_5": {
+     "auc": 0.621,
+     "skip_fail_at_2pct": 0.038
+    },
+    "qwen3_coder_30b": {
+     "auc": 0.589,
+     "skip_fail_at_2pct": 0.039
+    },
+    "qwen3_coder_480b": {
+     "auc": 0.606,
+     "skip_fail_at_2pct": 0.034
+    }
+   },
+   "_mean_auc": 0.605,
+   "_promising": false
+  },
+  "B2_hand_words": {
+   "per_agent": {
+    "claude_opus_4_5": {
+     "auc": 0.589,
+     "skip_fail_at_2pct": 0.038
+    },
+    "qwen3_coder_30b": {
+     "auc": 0.562,
+     "skip_fail_at_2pct": 0.034
+    },
+    "qwen3_coder_480b": {
+     "auc": 0.593,
+     "skip_fail_at_2pct": 0.055
+    }
+   },
+   "_mean_auc": 0.581,
+   "_promising": false
+  },
+  "reference_human_difficulty_auc": {
+   "claude_opus_4_5": 0.648,
+   "qwen3_coder_30b": 0.683,
+   "qwen3_coder_480b": 0.676
+  }
+ },
+ "C_descriptive": {
+  "checkpoint": {
+   "qwen3_coder_30b": 17,
+   "qwen3_coder_480b": 20,
+   "claude_opus_4_5": 15
+  },
+  "per_agent": {
+   "claude_opus_4_5": {
+    "auc_low_agreement": 0.492,
+    "tasks": 489
+   },
+   "qwen3_coder_30b": {
+    "auc_low_agreement": 0.516,
+    "tasks": 489
+   },
+   "qwen3_coder_480b": {
+    "auc_low_agreement": 0.454,
+    "tasks": 489
+   }
+  }
+ },
+ "code_sha256": {
+  "fumo.py": "e97ab519ab18d2e2d3eaf7775edcfcf26a1eafbb06bd73d29a3433ebcb0697c7",
+  "valuta_fumo.py": "329e95d6381979056b0d73d37b1c41f82c5144fa1fcb6f45326cb3789a8978f2",
+  "ab.py": "d3992718ded32c35494b605a2103853801366001dfa35834aa977b106b6377ac"
+ },
+ "verified_sha256": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd"
+}

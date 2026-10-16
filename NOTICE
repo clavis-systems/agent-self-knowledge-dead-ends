@@ -1,0 +1,8 @@
+Ten dead ends: can a small AI agent tell when it is wrong?
+Copyright 2026 Emanuele Rizzan
+
+This repository contains outputs of Gemma 4 E4B and Qwen3 8B, and per-item data derived from HumanEvalPack (MIT) and
+HumanEval+ (Apache-2.0). See DATA.md.
+
+HumanEval (Copyright (c) 2021 OpenAI) and HumanEvalPack (BigCode) are released under the MIT License; the MIT
+licence text is in THIRD_PARTY.md. HumanEval+ (EvalPlus) is released under the Apache-2.0 License.

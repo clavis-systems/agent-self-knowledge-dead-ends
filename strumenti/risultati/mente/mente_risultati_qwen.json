@@ -1,0 +1,18 @@
+{
+ "voice": "qwen",
+ "solutions": 597,
+ "pool": 507,
+ "false_done": 40,
+ "auc_pool": {
+  "probe_internal_state": 0.608,
+  "verbal_yes_no": 0.768,
+  "probe_plus_verbal_exploratory": 0.699,
+  "control_code_only": 0.584,
+  "control_permuted_labels": 0.413,
+  "control_length": 0.513
+ },
+ "gate": {
+  "probe_beats_verbal_by_0.05": false,
+  "passes": false
+ }
+}

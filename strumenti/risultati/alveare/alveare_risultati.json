@@ -1,0 +1,40 @@
+{
+ "tasks": 163,
+ "doubt_threshold": -0.8621,
+ "policies": {
+  "P1": {
+   "solved": 137,
+   "rate": 0.8405,
+   "mean_attempts": 1.0
+  },
+  "V_retry_if_visible_fails": {
+   "solved": 143,
+   "rate": 0.8773,
+   "mean_attempts": 1.282,
+   "capture_of_luck_ceiling": 0.749
+  },
+  "ALVEARE": {
+   "solved": 143,
+   "rate": 0.8773,
+   "mean_attempts": 1.675,
+   "capture_of_luck_ceiling": 0.749
+  },
+  "P3": {
+   "solved": 143,
+   "rate": 0.8773,
+   "mean_attempts": 3.0,
+   "capture_of_luck_ceiling": 0.749
+  },
+  "ORACOLO": {
+   "solved": 145,
+   "rate": 0.8896,
+   "mean_attempts": 3.0
+  }
+ },
+ "gate": {
+  "1_capture_ge_0.80_with_le_1.6_attempts": false,
+  "2_beats_dumb_control_by_2_points": false,
+  "passes": false
+ },
+ "code_sha256": "f60d49e4f3707be43da23a633fe991a88a6cbb7112ca2e9eabc3568204b6e77f"
+}

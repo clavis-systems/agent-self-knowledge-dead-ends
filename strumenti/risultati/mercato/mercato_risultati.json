@@ -1,0 +1,25 @@
+{
+ "pairs": 206,
+ "solved": 160,
+ "tasks": 144,
+ "auc": {
+  "voice_gemma": 0.783,
+  "voice_qwen": 0.81,
+  "market_simple": 0.82,
+  "market_memory_cv": 0.777,
+  "visible_tests": 0.88,
+  "visible_plus_market_cv": 0.942
+ },
+ "gate": {
+  "1_market_beats_best_voice_by_0.03": false,
+  "2_market_adds_0.03_to_visible_tests": true,
+  "passes": false
+ },
+ "among_visible_pass": {
+  "pairs": 162,
+  "solved": 153,
+  "auc_gemma": 0.877,
+  "auc_qwen": 0.752
+ },
+ "code_sha256": "1b9e5411ec3f9eefb5a623355e9b0f8af4084dd37c35a6cdd71a0b45aef6c1ea"
+}

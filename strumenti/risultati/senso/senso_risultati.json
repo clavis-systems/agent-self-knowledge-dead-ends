@@ -1,0 +1,30 @@
+{
+ "solutions": 507,
+ "false_done": 40,
+ "good": 467,
+ "tasks_with_valid_checks": 117,
+ "tasks": 155,
+ "unclear_runs": 119,
+ "raw": {
+  "caught": 20,
+  "catch_rate": 0.5,
+  "false_alarms": 161,
+  "false_alarm_rate": 0.345
+ },
+ "consensus_filter_exploratory": {
+  "caught": 8,
+  "catch_rate": 0.2,
+  "false_alarms": 9,
+  "false_alarm_rate": 0.019
+ },
+ "gate": {
+  "catch_ge_half": true,
+  "false_alarms_le_10pct": false,
+  "passes": false
+ },
+ "judge_same_false_alarms": {
+  "false_alarms": 161,
+  "caught": 27
+ },
+ "code_sha256": "384248ac1b02e2214d06a18014f1b1edfed037827cf812af749ddcdc362cf866"
+}

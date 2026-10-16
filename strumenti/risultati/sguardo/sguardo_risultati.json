@@ -1,0 +1,44 @@
+{
+ "labelled": 597,
+ "unclear_strict": 0,
+ "visible_pass_pool": 507,
+ "false_done": 40,
+ "parts": {
+  "A": {
+   "pool": 161,
+   "false_done": 22
+  },
+  "B": {
+   "pool": 346,
+   "false_done": 18
+  }
+ },
+ "auc": {
+  "judge_gemma": 0.725,
+  "judge_qwen": 0.768,
+  "control_code_length": 0.513
+ },
+ "auc_by_part": {
+  "A": {
+   "judge_gemma": 0.724,
+   "judge_qwen": 0.681
+  },
+  "B": {
+   "judge_gemma": 0.668,
+   "judge_qwen": 0.768
+  }
+ },
+ "gate": {
+  "enough_false_done": true,
+  "gemma_auc_ge_0.75": false,
+  "beats_length_by_0.10": true,
+  "passes": false
+ },
+ "at_half_false_done_caught": {
+  "threshold": -0.9346,
+  "good_flagged": 95,
+  "good_total": 467,
+  "share_good_flagged": 0.203
+ },
+ "code_sha256": "81a38ef54dc083949af622e72e4ff385cf43c4bd74559505317cf9556d9001b7"
+}

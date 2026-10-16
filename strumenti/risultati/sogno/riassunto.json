@@ -1,0 +1,168 @@
+{
+ "gate0": {
+  "runs": 144,
+  "overall_fail_rate": 0.188,
+  "emotions": {
+   "disagio": {
+    "fired_with_5_left": 10,
+    "share": 0.069,
+    "fail_rate_when_fired": 0.5,
+    "passes": false
+   },
+   "noia": {
+    "fired_with_5_left": 108,
+    "share": 0.75,
+    "fail_rate_when_fired": 0.213,
+    "passes": false
+   },
+   "fatica": {
+    "fired_with_5_left": 46,
+    "share": 0.319,
+    "fail_rate_when_fired": 0.435,
+    "passes": false
+   }
+  },
+  "passing": []
+ },
+ "split": {
+  "D1": [
+   54,
+   59,
+   74,
+   90,
+   91,
+   101,
+   111,
+   125,
+   130,
+   132,
+   138,
+   146,
+   161
+  ],
+  "D2": [
+   32,
+   39,
+   75,
+   77,
+   94,
+   95,
+   99,
+   119,
+   129,
+   140,
+   145,
+   153,
+   155,
+   163
+  ],
+  "S2": [
+   24,
+   25,
+   27,
+   31,
+   42,
+   56,
+   57,
+   86,
+   87,
+   103,
+   106,
+   141,
+   144,
+   148
+  ]
+ },
+ "gate1a": {
+  "tasks": 13,
+  "solved_with_lesson": 8,
+  "solved_without": 3,
+  "passes": true,
+  "lessons": [
+   {
+    "task": 54,
+    "kept": true,
+    "lesson": "When debugging, always ensure that the logic correctly handles all edge cases specified in the requirements, especially concerning constraints and empty inputs. Thoroughly trace the execution flow with boundary conditions to catch subtle errors."
+   },
+   {
+    "task": 59,
+    "kept": true,
+    "lesson": "When implementing algorithms, always thoroughly test edge cases and constraints, as relying on partial logic can lead to failures in hidden tests. Ensure that helper functions are robust and correctly handle all possible inputs before integrating them into the main logic."
+   },
+   {
+    "task": 74,
+    "kept": false,
+    "lesson": "When debugging, always carefully re-read the problem description and constraints, as a subtle misinterpretation of the requirements can lead to incorrect logic. Always test edge cases thoroughly, especially those mentioned in the examples or implied by constraints."
+   },
+   {
+    "task": 90,
+    "kept": false,
+    "lesson": "When debugging, always carefully re-read the function's requirements and test cases to ensure your logic precisely matches the expected behavior. Pay close attention to edge cases and constraints, as subtle misinterpretations can lead to failures."
+   },
+   {
+    "task": 91,
+    "kept": true,
+    "lesson": "When debugging, carefully examine the provided test cases and the function's docstring to ensure all constraints and edge cases are correctly handled. Always trace the execution flow with the failing test inputs to pinpoint the exact logical error."
+   },
+   {
+    "task": 101,
+    "kept": true,
+    "lesson": "When implementing string manipulation, always consider all possible delimiters and edge cases, not just the most obvious ones. Thoroughly test against various input formats to ensure robustness."
+   },
+   {
+    "task": 111,
+    "kept": true,
+    "lesson": "When debugging, always carefully re-read the problem description and test cases to ensure your logic precisely matches all specified constraints and edge cases. Pay close attention to how input variations affect the expected output, as subtle misinterpretations lead to failures."
+   },
+   {
+    "task": 125,
+    "kept": false,
+    "lesson": "When debugging, always carefully re-read the problem description and test cases to ensure your logic precisely matches all specified conditions. Pay close attention to edge cases and constraints, as subtle misinterpretations often lead to failures."
+   },
+   {
+    "task": 130,
+    "kept": false,
+    "lesson": "When implementing recursive or iterative sequences, carefully trace the base cases and the inductive step to ensure the logic correctly maps to the defined recurrence relation. Always test with small, edge-case inputs to verify the sequence generation process."
+   },
+   {
+    "task": 132,
+    "kept": false,
+    "lesson": "When debugging, always ensure that the logic correctly handles all edge cases described in the problem statement, not just the provided examples. Thoroughly trace the execution flow with various inputs to uncover hidden assumptions or incorrect boundary checks."
+   },
+   {
+    "task": 138,
+    "kept": true,
+    "lesson": "When implementing logic based on mathematical properties, thoroughly test edge cases and constraints rather than relying on overly restrictive conditions. Always verify the necessary and sufficient conditions for a property to hold true."
+   },
+   {
+    "task": 146,
+    "kept": true,
+    "lesson": "When debugging, always carefully re-read the problem description and constraints, as subtle misinterpretations of requirements can lead to incorrect logic even if the code runs without syntax errors. Ensure that edge cases and tie-breaking rules are explicitly handled according to the specification."
+   },
+   {
+    "task": 161,
+    "kept": true,
+    "lesson": "When reviewing code, always ensure that the indentation of every line strictly adheres to the language's syntax rules. Pay close attention to how loops and conditional blocks are structured to prevent unexpected indentation errors."
+   }
+  ]
+ },
+ "giorno2": {
+  "BASE": {
+   "D2_solved": 6,
+   "S2_solved": 14,
+   "runs": 28
+  },
+  "PLACEBO": {
+   "D2_solved": 10,
+   "S2_solved": 12,
+   "runs": 28,
+   "passes": true
+  },
+  "SOGNO": {
+   "D2_solved": 9,
+   "S2_solved": 12,
+   "runs": 28,
+   "passes": false
+  }
+ }
+}
